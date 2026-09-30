@@ -1,0 +1,11 @@
+{
+  "system": "demo-payment-gateway",
+  "encryption_algorithm": "DES",
+  "block_mode": "ECB",
+  "minimum_tls": "1.0",
+  "hardcoded_key": true,
+  "key_rotation_days": null,
+  "audit_logging": false,
+  "certificate_validation": false
+}
+

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cipherguard-mini-lab"
+version = "1.0.0"
+description = "面向密码安全赛备赛的认证加密、签名验证与配置审计小型实验项目"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["cryptography>=44"]
+
+[project.scripts]
+cipherguard = "cipherguard.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
